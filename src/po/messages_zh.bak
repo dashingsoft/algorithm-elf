@@ -1,0 +1,456 @@
+# PO file of Algorithm Elf.
+# Copyright (c) 2009,2010 Dashingsoft Corp.
+# Jondy Zhao <jondy.zhao@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: dsAssistant 1.0.0.1\n"
+"POT-Creation-Date: 2009-07-07 17:14\n"
+"PO-Revision-Date: 2009-07-07 18:04+0800\n"
+"Last-Translator: Jondy Zhao <jondy.zhao@gmail.com>\n"
+"Language-Team: Chinese <chinese@dashingsoft.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: D:\projects\dsAssistant\src\algorithm\baseAlgorithm.py:470
+#: D:\projects\dsAssistant\src\algorithm\baseAlgorithm.py:498
+msgid "special chars ';:,[]' found in the node '%s'"
+msgstr ""
+
+#: D:\projects\dsAssistant\src\algorithm\baseAlgorithm.py:513
+msgid "Invalid tree list."
+msgstr ""
+
+#: D:\projects\dsAssistant\src\algorithm\baseAlgorithm.py:666
+msgid ""
+"Verify the tree parameter '%s' fails:\n"
+"%s"
+msgstr ""
+
+#: D:\projects\dsAssistant\src\algorithm\baseAlgorithm.py:674
+msgid ""
+"Verify the graph parameter '%s' fails:\n"
+"%s"
+msgstr ""
+
+#: D:\projects\dsAssistant\src\dsAbout.py:36
+msgid "Data Structure Algorithm Assistant"
+msgstr "数据结构算法助手"
+
+#: D:\projects\dsAssistant\src\dsAbout.py:40
+msgid "Contact: Jondy Zhao (jondy.zhao@gmail.com)"
+msgstr "联系人：赵俊德 (jondy.zhao@gmail.com)"
+
+#: D:\projects\dsAssistant\src\dsAbout.py:41
+msgid "Dashingsoft Corp."
+msgstr "德新软件公司"
+
+#: D:\projects\dsAssistant\src\dsAbout.py:46
+msgid ""
+"\n"
+"This is a software designed to help you understand the data structure "
+"algorithm.\n"
+msgstr ""
+"德新数据结构辅助教学软件是一个直观显示数据结构各种算法执行过\n"
+"程中代码、堆栈和数据变化过程的辅助工具。"
+
+#: D:\projects\dsAssistant\src\dsAbout.py:61
+msgid "About %s"
+msgstr "关于 %s"
+
+#: D:\projects\dsAssistant\src\dsAbout.py:157
+#: D:\projects\dsAssistant\src\dsRegister.py:132
+msgid "Version %s"
+msgstr "版本 %s"
+
+#: D:\projects\dsAssistant\src\dsAbout.py:234
+msgid "The product is registered to:\n"
+msgstr "产品注册信息："
+
+#: D:\projects\dsAssistant\src\dsAbout.py:244
+msgid "Register Product:"
+msgstr "注册产品："
+
+#: D:\projects\dsAssistant\src\dsAbout.py:267
+#: D:\projects\dsAssistant\src\dsAlgorithmConfigDialog.py:345
+#: D:\projects\dsAssistant\src\dsApplicationConfigDialog.py:382
+msgid "OK"
+msgstr "确定"
+
+#: D:\projects\dsAssistant\src\dsAlgorithmConfigDialog.py:60
+msgid "Set %s parameters"
+msgstr "设置 %s 参数"
+
+#: D:\projects\dsAssistant\src\dsAlgorithmConfigDialog.py:229
+#: D:\projects\dsAssistant\src\dsApplicationConfigDialog.py:266
+msgid "Unknowed the parameter type '%s'"
+msgstr "未知的参数类型 '%s'"
+
+#: D:\projects\dsAssistant\src\dsAlgorithmConfigDialog.py:257
+#: D:\projects\dsAssistant\src\dsApplicationConfigDialog.py:294
+msgid "Algorithm Parameters"
+msgstr "算法参数"
+
+#: D:\projects\dsAssistant\src\dsAlgorithmConfigDialog.py:288
+#: D:\projects\dsAssistant\src\dsAlgorithmConfigDialog.py:525
+#: D:\projects\dsAssistant\src\dsAlgorithmConfigDialog.py:595
+#: D:\projects\dsAssistant\src\dsApplicationConfigDialog.py:325
+msgid "Edit paramter: %s"
+msgstr "编辑参数："
+
+#: D:\projects\dsAssistant\src\dsAlgorithmConfigDialog.py:335
+#: D:\projects\dsAssistant\src\dsApplicationConfigDialog.py:372
+msgid "Apply"
+msgstr "应用"
+
+#: D:\projects\dsAssistant\src\dsAlgorithmConfigDialog.py:354
+#: D:\projects\dsAssistant\src\dsApplicationConfigDialog.py:391
+msgid "Cancel"
+msgstr "取消"
+
+#: D:\projects\dsAssistant\src\dsAlgorithmConfigDialog.py:363
+#: D:\projects\dsAssistant\src\dsApplicationConfigDialog.py:400
+msgid "Default"
+msgstr "缺省值"
+
+#: D:\projects\dsAssistant\src\dsAlgorithmConfigDialog.py:470
+#: D:\projects\dsAssistant\src\dsAlgorithmConfigDialog.py:662
+#: D:\projects\dsAssistant\src\dsApplicationConfigDialog.py:517
+msgid ""
+"Validation Fail!\n"
+"\n"
+"The value of %s you typed doesn't match the following condition:\n"
+"\n"
+"%s"
+msgstr "参数校验失败！\\n\\n你输入的参数值 %s 不满足条件：\\n\\n%s"
+
+#: D:\projects\dsAssistant\src\dsAlgorithmConfigDialog.py:650
+msgid ""
+"Validation Fail!\n"
+"\n"
+"The value of %s you typed isn't a well-formatted tree structure:\n"
+"\n"
+"%s"
+msgstr "参数校验失败！\\n\\n你输入的参数值不是一个合法的树描述字符串：\\n\\n%s"
+
+#: D:\projects\dsAssistant\src\dsApplicationConfigDialog.py:48
+msgid "Application Settings"
+msgstr "选项设定"
+
+#: D:\projects\dsAssistant\src\dsApplicationConfigDialog.py:69
+msgid "There is no <behavior> information in the configure file."
+msgstr "在配置文件中没有发现元素 <behavior>"
+
+#: D:\projects\dsAssistant\src\dsApplicationConfigDialog.py:75
+msgid "There is no <language> information in the configure file."
+msgstr "在配置文件中没有发现元素 <language>"
+
+#: D:\projects\dsAssistant\src\dsApplicationConfigDialog.py:98
+msgid "Language"
+msgstr "语言"
+
+#: D:\projects\dsAssistant\src\dsConfigure.py:81
+msgid "Checking config file '%s' fails, because of %s"
+msgstr "检查配置文件 %s 失败，因为%s"
+
+#: D:\projects\dsAssistant\src\dsConfigure.py:92
+msgid "Writing config file fails, because of %s"
+msgstr "保存配置文件失败，因为%s"
+
+#: D:\projects\dsAssistant\src\dsConfigure.py:335
+msgid "There is no config file '%s'"
+msgstr "没有发现配置文件 %s"
+
+#: D:\projects\dsAssistant\src\dsConfigure.py:344
+msgid "The config file '%s' is NOT well-format: %s"
+msgstr "配置文件 %s 的格式不正确：%s"
+
+#: D:\projects\dsAssistant\src\dsConfigure.py:352
+msgid "No algorithm '%s' in both of 'dsconfig.xml' and 'dsdefault.xml'"
+msgstr "在配置文件中没有发现算法：%s"
+
+#: D:\projects\dsAssistant\src\dsMain.py:189
+msgid "Algorithm"
+msgstr "算法"
+
+#: D:\projects\dsAssistant\src\dsMain.py:226
+msgid "Setting"
+msgstr "算法设定"
+
+#: D:\projects\dsAssistant\src\dsMain.py:248
+#: D:\projects\dsAssistant\src\dsMain.py:632
+#: D:\projects\dsAssistant\src\dsMain.py:642
+msgid "Start"
+msgstr "启动"
+
+#: D:\projects\dsAssistant\src\dsMain.py:256
+msgid "Abort"
+msgstr "终止"
+
+#: D:\projects\dsAssistant\src\dsMain.py:264
+#: D:\projects\dsAssistant\src\dsPlayback.py:200
+msgid "Reset"
+msgstr "重新启动"
+
+#: D:\projects\dsAssistant\src\dsMain.py:272
+#: D:\projects\dsAssistant\src\dsMain.py:637
+#: D:\projects\dsAssistant\src\dsMain.py:647
+#: D:\projects\dsAssistant\src\dsMain.py:656
+#: D:\projects\dsAssistant\src\dsMain.py:675
+#: D:\projects\dsAssistant\src\dsPlayback.py:388
+#: D:\projects\dsAssistant\src\dsPlayback.py:393
+msgid "Pause"
+msgstr "暂停"
+
+#: D:\projects\dsAssistant\src\dsMain.py:280
+msgid "Step"
+msgstr "单步执行"
+
+#: D:\projects\dsAssistant\src\dsMain.py:298
+#: D:\projects\dsAssistant\src\dsPlayback.py:221
+msgid "Delay(ms):"
+msgstr "延时(ms):"
+
+#: D:\projects\dsAssistant\src\dsMain.py:344
+msgid "Options..."
+msgstr "选项..."
+
+#: D:\projects\dsAssistant\src\dsMain.py:348
+msgid "Custom..."
+msgstr "定制..."
+
+#: D:\projects\dsAssistant\src\dsMain.py:354
+msgid "Playback"
+msgstr "回放"
+
+#: D:\projects\dsAssistant\src\dsMain.py:358
+msgid "Save Logs..."
+msgstr "保存日志..."
+
+#: D:\projects\dsAssistant\src\dsMain.py:364
+msgid "Help"
+msgstr "帮助"
+
+#: D:\projects\dsAssistant\src\dsMain.py:368
+msgid "Register..."
+msgstr "注册..."
+
+#: D:\projects\dsAssistant\src\dsMain.py:374
+msgid "About..."
+msgstr "关于..."
+
+#: D:\projects\dsAssistant\src\dsMain.py:452
+msgid "Setting parameter fails, %s"
+msgstr "设置参数失败，%s"
+
+#: D:\projects\dsAssistant\src\dsMain.py:455
+msgid "Setting parameter fails, because of unknown exception."
+msgstr "设置参数失败，原因不明"
+
+#: D:\projects\dsAssistant\src\dsMain.py:463
+msgid "Select algorithm fails, %s"
+msgstr "算法初始化失败，%s"
+
+#: D:\projects\dsAssistant\src\dsMain.py:466
+msgid "Setlect algorithm fails, because of unknown exception."
+msgstr "算法初始化失败，原因不明"
+
+#: D:\projects\dsAssistant\src\dsMain.py:481
+msgid "Playback is NOT available except you have run one algorithm"
+msgstr "回放功能只有当你运行算法演示之后才可用"
+
+#: D:\projects\dsAssistant\src\dsMain.py:492
+msgid "Playback algorithm fails, %s"
+msgstr "回放算法失败，%s"
+
+#: D:\projects\dsAssistant\src\dsMain.py:495
+msgid "Playback algorithm fails, because of unknown exception."
+msgstr "回放算法失败，原因不明"
+
+#: D:\projects\dsAssistant\src\dsMain.py:502
+msgid "Save the action logs to ..."
+msgstr "保存日志到..."
+
+#: D:\projects\dsAssistant\src\dsMain.py:505
+msgid "Text File"
+msgstr "文本文件"
+
+#: D:\projects\dsAssistant\src\dsMain.py:516
+msgid "Save algorithm log fails, %s"
+msgstr "保存日志失败，%s"
+
+#: D:\projects\dsAssistant\src\dsMain.py:519
+msgid "Save algorithm log fails, because of unknown exception."
+msgstr "保存日志失败，原因不明"
+
+#: D:\projects\dsAssistant\src\dsMain.py:545
+msgid "Algorithm '%s' initialize..."
+msgstr "算法 %s 正在初始化..."
+
+#: D:\projects\dsAssistant\src\dsMain.py:583
+msgid "Algorithm '%s' is ready to run."
+msgstr "算法 %s 已经可以运行"
+
+#: D:\projects\dsAssistant\src\dsMain.py:593
+msgid "Go..."
+msgstr "启动..."
+
+#: D:\projects\dsAssistant\src\dsMain.py:599
+msgid "Algorithm '%s' is over"
+msgstr "算法 %s 执行完成"
+
+#: D:\projects\dsAssistant\src\dsMain.py:607
+msgid "Algorithm is terminated by user"
+msgstr "算法演示被用户中断"
+
+#: D:\projects\dsAssistant\src\dsMain.py:611
+msgid "Algorithm fails, %s"
+msgstr "算法执行失败，%s"
+
+#: D:\projects\dsAssistant\src\dsMain.py:616
+msgid "Algorithm fails, because of unknown exception."
+msgstr "算法执行失败，原因不明"
+
+#: D:\projects\dsAssistant\src\dsMain.py:665
+#: D:\projects\dsAssistant\src\dsPlayback.py:398
+msgid "Resume"
+msgstr "恢复"
+
+#: D:\projects\dsAssistant\src\dsMain.py:670
+msgid "Restart"
+msgstr "重新启动"
+
+#: D:\projects\dsAssistant\src\dsMain.py:705
+#: D:\projects\dsAssistant\src\dsMain.py:806
+msgid ""
+"Warning: Language '%s' is NOT supportted, default language '%s'  is used."
+msgstr "警告：试图配置不支持的语言 %s，程序目前使用的是缺省语言 %s "
+
+#: D:\projects\dsAssistant\src\dsMain.py:739
+msgid "No help file is installed."
+msgstr "帮助文件没有安装"
+
+#: D:\projects\dsAssistant\src\dsMain.py:790
+msgid ""
+"Warning: No translation file found for domain 'dsAssistant' in the directory "
+"of '%s'"
+msgstr "警告：没有发现支持 %s 的翻译文件"
+
+#: D:\projects\dsAssistant\src\dsMain.py:826
+msgid "Application is terminated because of the following error:"
+msgstr "因为下列原因，程序被终止："
+
+#: D:\projects\dsAssistant\src\dsMessageView.py:112
+msgid "Logs"
+msgstr "算法日志"
+
+#: D:\projects\dsAssistant\src\dsMessageView.py:122
+msgid "Messages"
+msgstr "输出消息"
+
+#: D:\projects\dsAssistant\src\dsPlayback.py:70
+msgid "Playback %s"
+msgstr "回放 %s"
+
+#: D:\projects\dsAssistant\src\dsPlayback.py:209
+#: D:\projects\dsAssistant\src\dsPlayback.py:314
+#: D:\projects\dsAssistant\src\dsPlayback.py:325
+msgid "Run"
+msgstr "运行"
+
+#: D:\projects\dsAssistant\src\dsPlayback.py:236
+msgid "Go to:"
+msgstr "跳转："
+
+#: D:\projects\dsAssistant\src\dsPlayback.py:249
+msgid "Total frame(s): %d"
+msgstr "总帧数："
+
+#: D:\projects\dsAssistant\src\dsPlayback.py:255
+#: D:\projects\dsAssistant\src\dsRegister.py:259
+msgid "Exit"
+msgstr "退出"
+
+#: D:\projects\dsAssistant\src\dsRegister.py:50
+msgid "Register %s"
+msgstr "注册 %s"
+
+#: D:\projects\dsAssistant\src\dsRegister.py:204
+msgid ""
+"%d-day trial period is over, enjoy products by clicking the register button "
+"below."
+msgstr "%d 天的试用期已经结束，你需要注册之后才能继续使用。点击下面的 注册 按钮可以注册产品"
+
+#: D:\projects\dsAssistant\src\dsRegister.py:208
+msgid ""
+"There is ONE day trial period left, enjoy products permanently by clicking "
+"theregister button below."
+msgstr "试用期只剩下一天，注册产品之后你可以永久使用"
+
+#: D:\projects\dsAssistant\src\dsRegister.py:212
+msgid ""
+"There are %d days trial period left, enjoy products permanently by clicking "
+"the register button below."
+msgstr "产品试用期还有 %d 天，注册产品之后你可以永久享用本产品"
+
+#: D:\projects\dsAssistant\src\dsRegister.py:230
+msgid "Try"
+msgstr "试用"
+
+#: D:\projects\dsAssistant\src\dsRegister.py:245
+msgid "Register"
+msgstr "注册"
+
+#: D:\projects\dsAssistant\src\dsStackEntity.py:59
+#: D:\projects\dsAssistant\src\dsStackEntity.py:66
+msgid "There is no %s in the global data."
+msgstr "在全局堆中没有发现变量 %s"
+
+#: D:\projects\dsAssistant\src\dsStackEntity.py:110
+#: D:\projects\dsAssistant\src\dsStackEntity.py:118
+msgid "There is no %s in the local data."
+msgstr "在局部堆中没有发现变量 %s"
+
+#: D:\projects\dsAssistant\src\dsStackEntity.py:127
+#: D:\projects\dsAssistant\src\dsStackEntity.py:135
+msgid "There is no %s in the parameter list."
+msgstr "在参数列表中没有发现变量 %s"
+
+#: D:\projects\dsAssistant\src\dsStackView.py:192
+msgid "Global Data"
+msgstr "全局数据"
+
+#: D:\projects\dsAssistant\src\dsStackView.py:272
+msgid "Level%4d : %s    "
+msgstr "层数 %4d : %s"
+
+#: D:\projects\dsAssistant\src\dsVisionEntity.py:350
+msgid "No vision object '%s' found"
+msgstr "没有发现可见实体 %s"
+
+#: D:\projects\dsAssistant\src\dsVisionEntity.py:358
+msgid "No child '%s' found in the parent vision object '%s'"
+msgstr "在可见实体 %s 中没有发现孩子 %s"
+
+#: D:\projects\dsAssistant\src\dsVisionView.py:221
+msgid "Unknown element type: %s"
+msgstr "未知的实体类型：%s"
+
+#: D:\projects\dsAssistant\src\startup.py:144
+msgid "Check license fails, because of %s"
+msgstr "认证失败，因为%s"
+
+#: D:\projects\dsAssistant\src\startup.py:147
+msgid "Invalid license file 'license.lic' or invalid key file 'public.key'"
+msgstr "非法的认证文件 'license.lic' 或者 非法的签名文件 'public.key'"
+
+#: D:\projects\dsAssistant\src\startup.py:209
+#: D:\projects\dsAssistant\src\startup.py:226
+#: D:\projects\dsAssistant\src\startup.py:230
+msgid "Invalid license file"
+msgstr "认证文件非法"
+
+#: D:\projects\dsAssistant\src\startup.py:331
+msgid "I'm tired, I want to have a good rest"
+msgstr "我累了，我想好好的休息哦"

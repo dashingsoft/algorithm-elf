@@ -1,0 +1,616 @@
+# PO file of Algorithm Elf.
+# Copyright (c) 2009,2010 Dashingsoft Corp.
+# Jondy Zhao <jondy.zhao@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: Algorithm Fairy 1.0.0.1\n"
+"POT-Creation-Date: 2010-11-05 12:53+China Standard Time\n"
+"PO-Revision-Date: 2010-11-05 12:55+0800\n"
+"Last-Translator: Jondy Zhao <jondy.zhao@gmail.com>\n"
+"Language-Team: Chinese <chinese@dashingsoft.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: about.py:35 algorithm-elf.py:625
+#, fuzzy
+msgid "Algorithm Elf"
+msgstr "算法精灵"
+
+#: about.py:37
+#, fuzzy
+msgid ""
+"Copyright (c) 2009, 2010 Dashingsoft Corp.\n"
+"All rights reserved."
+msgstr "版权所有 (c) 2009，2010 德新软件公司。保留全部权利。"
+
+#: about.py:39
+msgid "Contact: Jondy Zhao (jondy.zhao@gmail.com)"
+msgstr "联系人：赵俊德 (jondy.zhao@gmail.com)"
+
+#: about.py:40
+msgid "Dashingsoft Corp."
+msgstr "德新软件公司"
+
+#: about.py:44
+#, fuzzy
+msgid "https://secure.shareit.com/shareit/checkout.html?PRODUCT[300326756]=1"
+msgstr "http://shareware.skycn.com/soft/26526.htm"
+
+#: about.py:46
+msgid ""
+"A graphical way to show the implementation process of the most data "
+"structure algorithms. Applicable to the production of algorithms course and "
+"help the students understanding of the software algorithm for the "
+"implementation process."
+msgstr ""
+
+#: about.py:70
+msgid "No document %s found"
+msgstr ""
+
+#: about.py:84
+msgid "Getting started"
+msgstr ""
+
+#: about.py:88
+msgid "User Guide"
+msgstr ""
+
+#: about.py:93
+#, fuzzy
+msgid "Register Product"
+msgstr "注册产品："
+
+#: about.py:102
+msgid "About..."
+msgstr "关于..."
+
+#: about.py:121
+msgid ""
+"You are using a trial version, and the remaining trial days: %d. \n"
+"\n"
+"After the trial period ends, you must register this copy before you continue "
+"to use it. More information refer to the file LICENSE located in the product "
+"directory."
+msgstr ""
+
+#: about.py:127
+msgid ""
+"This copy has been registered as No.%s\n"
+"\n"
+"Thank you choose to Dashingsoft, we will be happy to provide you with better "
+"products and more satisfied services. If you have any question, feel free "
+"mail to jondy.zhao@gmail.com or visit www.dashingsoft.com to get the "
+"corresponding support. It'll be appreciated if you report any bug occurred "
+"when using this product. Thanks for you again."
+msgstr ""
+
+#: about.py:143
+msgid "About %s"
+msgstr "关于 %s"
+
+#: about.py:203
+msgid "Version %s"
+msgstr "版本 %s"
+
+#: about.py:268 dssetting.py:1446
+msgid "OK"
+msgstr "确定"
+
+#: about.py:287
+msgid "Register %s"
+msgstr "注册 %s"
+
+#: about.py:308 register.py:60
+msgid ""
+"1. Get Registration Code. Click Buy Now to get one from the web site online."
+msgstr ""
+
+#: about.py:315 register.py:67
+msgid "Buy Now"
+msgstr ""
+
+#: about.py:339
+msgid "2. Type the Registration Code in the text box"
+msgstr ""
+
+#: about.py:377
+msgid "3. Click Register to register"
+msgstr ""
+
+#: about.py:383 register.py:129
+msgid "Register"
+msgstr "注册"
+
+#: about.py:391 algorithm-elf.py:481 datapool.py:280 datapool.py:754
+#: register.py:137
+msgid "Close"
+msgstr ""
+
+#: about.py:410
+#, fuzzy
+msgid ""
+"You need restart your application to take it affect.\n"
+"\n"
+"Thank for you to register the product."
+msgstr ""
+"已经根据你提供的Key生成认证文件‘%s’，现在需要重新启动程序来使之生效。\n"
+"\n"
+"非常感谢你注册算法精灵产品"
+
+#: about.py:417 register.py:163
+#, fuzzy
+msgid "Register product failed: %s"
+msgstr "注册产品："
+
+#: aftype.py:1081
+msgid "Assign unknown value to ArrayPointer"
+msgstr ""
+
+#: algorithm-elf.py:235 algorithm-elf.py:459
+msgid "New"
+msgstr ""
+
+#: algorithm-elf.py:240 algorithm-elf.py:463 dsplayer.py:273
+msgid "Open"
+msgstr ""
+
+#: algorithm-elf.py:245 algorithm-elf.py:472
+msgid "Save"
+msgstr ""
+
+#: algorithm-elf.py:269 algorithm-elf.py:500
+msgid "Undo"
+msgstr ""
+
+#: algorithm-elf.py:274 algorithm-elf.py:503
+msgid "Redo"
+msgstr ""
+
+#: algorithm-elf.py:291 algorithm-elf.py:518
+msgid "Build"
+msgstr ""
+
+#: algorithm-elf.py:297 algorithm-elf.py:522
+#, fuzzy
+msgid "Play"
+msgstr "回放"
+
+#: algorithm-elf.py:302 algorithm-elf.py:485 datapool.py:623 datapool.py:1421
+msgid "Data Pool"
+msgstr ""
+
+#: algorithm-elf.py:365
+msgid "Compile Message"
+msgstr ""
+
+#: algorithm-elf.py:410
+#, fuzzy
+msgid "File"
+msgstr "文本文件"
+
+#: algorithm-elf.py:414
+#, fuzzy
+msgid "Edit"
+msgstr "退出"
+
+#: algorithm-elf.py:418
+#, fuzzy
+msgid "Algorithm"
+msgstr "算法精灵"
+
+#: algorithm-elf.py:422
+msgid "Help"
+msgstr "帮助"
+
+#: algorithm-elf.py:428
+msgid "Hanoi"
+msgstr ""
+
+#: algorithm-elf.py:433
+msgid "Tree PreOrder"
+msgstr ""
+
+#: algorithm-elf.py:437
+msgid "Tree InOrder"
+msgstr ""
+
+#: algorithm-elf.py:441
+msgid "Tree PostOrder"
+msgstr ""
+
+#: algorithm-elf.py:446
+msgid "Straight Sort"
+msgstr ""
+
+#: algorithm-elf.py:450
+msgid "Quick Sort"
+msgstr ""
+
+#: algorithm-elf.py:454
+msgid "Merge Sort"
+msgstr ""
+
+#: algorithm-elf.py:467
+msgid "Open Samples"
+msgstr ""
+
+#: algorithm-elf.py:476
+#, fuzzy
+msgid "Save As..."
+msgstr "保存日志..."
+
+#: algorithm-elf.py:489
+msgid "Show Compile Window"
+msgstr ""
+
+#: algorithm-elf.py:496
+msgid "Quit"
+msgstr ""
+
+#: algorithm-elf.py:507
+msgid "Find"
+msgstr ""
+
+#: algorithm-elf.py:510
+msgid "Replace"
+msgstr ""
+
+#: algorithm-elf.py:514
+#, fuzzy
+msgid "Select All"
+msgstr "选择算法"
+
+#: algorithm-elf.py:624
+#, fuzzy
+msgid "No algorithm is opened"
+msgstr "算法 %s 执行完成"
+
+#: algorithm-elf.py:656
+#, fuzzy
+msgid "New algorithm file"
+msgstr "算法初始化失败，%s"
+
+#: algorithm-elf.py:657
+#, fuzzy
+msgid "Algorithm Elf - New"
+msgstr "算法 %s 执行完成"
+
+#: algorithm-elf.py:661 algorithm-elf.py:856
+#, fuzzy
+msgid "Algorithm Elf - {0}"
+msgstr "算法执行失败，%s"
+
+#: algorithm-elf.py:698 algorithm-elf.py:850 dsplayer.py:437
+#, fuzzy
+msgid "Pascal Algorithm Elf"
+msgstr "选择算法"
+
+#: algorithm-elf.py:735
+msgid "The text in the file has changed. Do you want to save it?"
+msgstr ""
+
+#: algorithm-elf.py:788
+msgid "No help file is installed."
+msgstr "帮助文件没有安装"
+
+#: algorithm-elf.py:814
+msgid "Could not open file: {0}"
+msgstr ""
+
+#: algorithm-elf.py:824
+msgid ""
+"Building process is running, do you really want to abort the process and "
+"quit?"
+msgstr ""
+
+#: algorithm-elf.py:834
+msgid "Algorithm is playing, can not close it"
+msgstr ""
+
+#: algorithm-elf.py:870
+msgid "Could not save file: {0}"
+msgstr ""
+
+#: algorithm-elf.py:879
+msgid "Unsupport platform to build"
+msgstr ""
+
+#: algorithm-elf.py:1384 dsplayer.py:1109
+msgid "Uncaught Exception"
+msgstr ""
+
+#: buildprocess.py:60
+msgid "Warning: thread is alive"
+msgstr ""
+
+#: datapool.py:152
+#, fuzzy
+msgid "Unknown data type:"
+msgstr "未知的结点类型 {0}"
+
+#: datapool.py:154
+msgid "Item {0} has been existed"
+msgstr ""
+
+#: datapool.py:206
+#, fuzzy
+msgid "Select Item:"
+msgstr "选择算法"
+
+#: datapool.py:248 dssetting.py:144
+msgid "Add"
+msgstr ""
+
+#: datapool.py:256 dsplayer.py:969 dssetting.py:153
+#, fuzzy
+msgid "Remove"
+msgstr "恢复"
+
+#: datapool.py:264 dssetting.py:162
+msgid "Apply"
+msgstr "应用"
+
+#: datapool.py:272
+msgid "Clone"
+msgstr ""
+
+#: datapool.py:341 datapool.py:696 dssetting.py:242 dssetting.py:1396
+msgid "Type"
+msgstr ""
+
+#: datapool.py:351
+msgid "Value:"
+msgstr ""
+
+#: datapool.py:370
+msgid "Visible:"
+msgstr ""
+
+#: datapool.py:380 dssetting.py:268
+msgid "Width"
+msgstr ""
+
+#: datapool.py:391 dssetting.py:281
+msgid "Heigth"
+msgstr ""
+
+#: datapool.py:403 dssetting.py:294
+msgid "Shape"
+msgstr ""
+
+#: datapool.py:414 dssetting.py:320
+msgid "Orientation"
+msgstr ""
+
+#: datapool.py:425 dssetting.py:333
+msgid "Anchor"
+msgstr ""
+
+#: datapool.py:435 dssetting.py:345
+msgid "Padx"
+msgstr ""
+
+#: datapool.py:446 dssetting.py:357
+msgid "Pady"
+msgstr ""
+
+#: datapool.py:457 dssetting.py:369
+msgid "Xincrement"
+msgstr ""
+
+#: datapool.py:468 dssetting.py:381
+msgid "Yincrement"
+msgstr ""
+
+#: datapool.py:479 dssetting.py:393
+msgid "Size"
+msgstr ""
+
+#: datapool.py:490
+msgid "Anonymous:"
+msgstr ""
+
+#: datapool.py:589
+msgid "Item name '%s' exists"
+msgstr ""
+
+#: datapool.py:632
+msgid "New Item"
+msgstr ""
+
+#: datapool.py:706 dssetting.py:229 dssetting.py:1406
+msgid "Name"
+msgstr ""
+
+#: datapool.py:715 datapool.py:724 datapool.py:734 dssetting.py:1414
+#: dssetting.py:1423 dssetting.py:1433
+#, fuzzy
+msgid "Value"
+msgstr "暂停"
+
+#: datapool.py:747
+msgid "Insert"
+msgstr ""
+
+#: datapool.py:768
+msgid "New item failed:"
+msgstr ""
+
+#: datapool.py:824 dssetting.py:674
+msgid "Add left child"
+msgstr ""
+
+#: datapool.py:832 dssetting.py:681
+msgid "Add right child"
+msgstr ""
+
+#: datapool.py:840 datapool.py:867 dssetting.py:688 dssetting.py:713
+msgid "Remove child"
+msgstr ""
+
+#: datapool.py:859 dssetting.py:706
+msgid "Add child"
+msgstr ""
+
+#: datapool.py:1162 dssetting.py:1024
+msgid "Add root node, click Add left child"
+msgstr ""
+
+#: dscore.py:234
+#, fuzzy
+msgid "There is no compiled algorithm file of '{0}'"
+msgstr "算法 {0} 还没有实现"
+
+#: dscore.py:279
+msgid "Algorithm parameter of {0} isn't defined in the data pool"
+msgstr ""
+
+#: dscore.py:290
+msgid "Start %s ..."
+msgstr ""
+
+#: dscore.py:296
+#, fuzzy
+msgid "End algorithm %s."
+msgstr "算法执行失败，%s"
+
+#: dscore.py:311
+msgid "Algorithm is terminated by user"
+msgstr "算法演示被用户中断"
+
+#: dscore.py:317
+#, fuzzy
+msgid "Playing algorithm failed:"
+msgstr "回放算法失败，%s"
+
+#: dsplayer.py:284
+#, fuzzy
+msgid "Parameter"
+msgstr "算法参数"
+
+#: dsplayer.py:295
+msgid "Breakpoint"
+msgstr ""
+
+#: dsplayer.py:307
+msgid "Start"
+msgstr "启动"
+
+#: dsplayer.py:314
+msgid "Run"
+msgstr "运行"
+
+#: dsplayer.py:320
+msgid "Step"
+msgstr "单步执行"
+
+#: dsplayer.py:326
+msgid "Pause"
+msgstr "暂停"
+
+#: dsplayer.py:332
+msgid "Abort"
+msgstr "终止"
+
+#: dsplayer.py:341
+#, fuzzy
+msgid "Execute Frame:"
+msgstr "执行语句：{0}"
+
+#: dsplayer.py:382
+msgid "Step Interval(ms):"
+msgstr ""
+
+#: dsplayer.py:405
+#, fuzzy
+msgid "Start algorithm failed:"
+msgstr "算法初始化失败，%s"
+
+#: dsplayer.py:448
+#, fuzzy
+msgid "Open algorithm failed:"
+msgstr "算法初始化失败，%s"
+
+#: dsplayer.py:623
+msgid "There is no algorithm '{0}' found"
+msgstr "算法 {0} 还没有实现"
+
+#: dsplayer.py:630
+msgid "There is no function prepare found in the algorithm class '{0}'"
+msgstr ""
+"算法 {0} 的实现存在问题，没有提供 prepare 方法，请参考 baseAlgorithm.py 中的"
+"说明"
+
+#: dsplayer.py:728
+#, fuzzy
+msgid "Eval expression: "
+msgstr "试用版"
+
+#: dsplayer.py:797
+#, fuzzy
+msgid "Algorithm Parameter"
+msgstr "算法参数"
+
+#: dsplayer.py:815 dsplayer.py:831
+#, fuzzy
+msgid "Algorithm Parameters:"
+msgstr "算法参数"
+
+#: dsplayer.py:932
+msgid "Breakpoint List"
+msgstr ""
+
+#: dsplayer.py:978 dssetting.py:307
+msgid "Watch"
+msgstr ""
+
+#: dssetting.py:90
+msgid "Parameter Setting"
+msgstr ""
+
+#: dssetting.py:110
+#, fuzzy
+msgid "Parameters"
+msgstr "设置 %s 参数"
+
+#: dssetting.py:171 dssetting.py:1455
+msgid "Cancel"
+msgstr "取消"
+
+#: dssetting.py:199
+msgid "Properties"
+msgstr ""
+
+#: dssetting.py:216
+msgid "Index"
+msgstr ""
+
+#: dssetting.py:255
+msgid "Visible"
+msgstr ""
+
+#: dssetting.py:406
+msgid "Anonymous"
+msgstr ""
+
+#: dssetting.py:1310
+msgid "New Variable"
+msgstr ""
+
+#: register.py:88
+msgid "2. Type the Registration Code in the text box."
+msgstr ""
+
+#: register.py:123
+msgid "3. Click Register to register."
+msgstr ""
+
+#: register.py:154
+msgid ""
+"Thank for you to register the product.\n"
+"You need restart your application to take it affect.\n"
+"\n"
+msgstr ""

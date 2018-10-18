@@ -1,0 +1,45 @@
+{<xml>
+
+    <parameter>
+        <name>n</name>
+        <type>Integer</type>
+        <value>4</value>
+    </parameter>
+
+    <parameter>
+        <name>x</name>
+        <type>Char</type>
+        <value>A</value>
+    </parameter>
+
+    <parameter>
+        <name>y</name>
+        <type>Char</type>
+        <value>B</value>
+    </parameter>
+
+    <parameter>
+        <name>z</name>
+        <type>Char</type>
+        <value>C</value>
+    </parameter>
+
+</xml>}
+procedure hanoi(n:integer, x,y,z:char);
+{将塔座x上编号从1至n，直径依小至大的n个圆盘移到塔座z上，y可用作辅助塔座}
+begin
+    if n=1
+        then move(x,1,z) {将编号为1的圆盘从x移到z}
+    else begin
+        {将x上编号从1至n-1的圆盘移动到y上，z为辅助塔座}
+        hanoi(n-1,x,z,y); {将编号n-1的圆盘从x移到z}
+        move(x,n,z);
+        {将y上编号从1至n-1的圆盘移动到z上，x为辅助塔座}
+        hanoi(n-1,y,x,z);
+    end
+end; {hanoi}
+
+procedure move(x : char, n:integer, y:char);
+begin
+   
+end;

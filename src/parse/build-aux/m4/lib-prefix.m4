@@ -1,0 +1,1 @@
+/usr/share/aclocal/lib-prefix.m4

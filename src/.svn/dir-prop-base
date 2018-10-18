@@ -1,0 +1,24 @@
+K 10
+svn:ignore
+V 319
+dsPlayback.pyc
+dsRegister.pyc
+dsStackEntity.pyc
+dsStackView.pyc
+dsVisionEntity.pyc
+dsVisionView.pyc
+dsAbout.pyc
+dsAlgorithmConfigDialog.pyc
+dsAlgorithmPanel.pyc
+dsApplicationConfigDialog.pyc
+dsCodeEntity.pyc
+dsCodeView.pyc
+dsConfigure.pyc
+dsDriver.pyc
+dsException.pyc
+dsMain.pyc
+dsMessageView.pyc
+dsParameter.pyc
+*.pyc
+
+END

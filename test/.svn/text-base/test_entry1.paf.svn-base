@@ -1,0 +1,9 @@
+{ 
+  测试没有指定 entry 的算法。
+
+  默认入口函数应该是第一个函数。
+}
+
+procedure myfunc();
+begin
+end;

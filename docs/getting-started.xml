@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<!DOCTYPE book SYSTEM "/usr/share/sgml/docbook/xml-dtd-4.1.2/docbookx.dtd">
+<book>
+<title><productname>Algorithm Elf</productname>Tutorial</title>
+<bookinfo> 
+   <author>
+      <firstname>Jondy</firstname>
+      <surname>Zhao</surname>
+   </author>
+   <revhistory>
+        <revision>
+            <revnumber>0.1</revnumber>
+            <date>2010-10-14</date>
+            <authorinitials>Jondy Zhao - jondy.zhao@gmail.com</authorinitials>
+            <revremark>Create the document.</revremark>
+         </revision>
+        <revision>
+            <revnumber>0.2</revnumber>
+            <date>2010-11-10</date>
+            <authorinitials>Jondy Zhao - jondy.zhao@gmail.com</authorinitials>
+            <revremark>Update the installation section.</revremark>
+         </revision>
+      </revhistory>
+</bookinfo>
+
+<chapter>
+<title>Summary</title>
+<para>
+<productname>Algorithm Elf</productname> is designed to help the students understanding the algorithm in the Data Structure and provide more materials used by the teachers to design their course, for examples, the anamate process of the algorighm implemented. 
+</para>
+<para>
+Main features: 
+<itemizedlist>
+<listitem><para>
+Algorithm Animation, as well as the view of stack changing and source code.
+</para></listitem>
+<listitem><para>
+Using datapool to config the initial parameters of each algorithm.
+</para></listitem>
+<listitem><para>
+The common data structure: Queue, Tree, and Graph etc. can be shown in graphic mode.
+</para></listitem>
+<listitem><para>
+You can add new algorithm written by pascal, build it and play it. And you can debug the algorithm, set the breakpoints and watchpoints. Algorithm Elf can displays the data changes in the implementation process, using an intuitive way of showing the problem of algorithm.
+</para></listitem>
+</itemizedlist>
+</para>
+</chapter>
+
+<chapter>
+<title>Installation and Startup</title>
+<para>
+You can get the latest version from http://dashingsoft.com
+<variablelist>
+<varlistentry>
+<term>Windows Platform</term>
+<listitem><para>
+Double the installation package: algorithm-elf-1.2.1.exe, click Next, until installation completed. You can find the program group Algorithm Elf in the startup menu.
+</para>
+<para>
+Click the item algorithm-elf in the group Algorithm Elf, you can startup the product.
+</para></listitem>
+</varlistentry>
+<varlistentry>
+<term>Linux Platform</term>
+<listitem><para>
+Run the following command to install <productname>Algorithm Elf</productname>：
+<programlisting>
+    $ rpm -ivh algorithm-elf-1.2.1-1.i686-linux.rpm
+</programlisting>
+<note><simpara>Maybe you need log as root user</simpara></note>
+It will be installed at /usr/algorithm-elf by default, you can type the following command to startup the Algoritm Elf:
+<programlisting>
+    $ cd /usr/algorithm-elf
+    $ ./algorithm-elf.bin
+</programlisting>
+</para><para>
+If you're customed to use tar file, run the following command:
+<programlisting>
+    $ tar xzf algorithm-elf-1.2.1.tar.gz
+</programlisting>
+then, startup the application
+<programlisting>
+    $ cd algorithm-elf
+    $ ./algorithm-elf.bin
+</programlisting>
+</para></listitem>
+</varlistentry>
+</variablelist>
+</para>
+
+</chapter>
+
+<chapter>
+<title>Using the examples</title>
+<para>
+Some algorithms, for examples, hanoi, travel binary tree, quick sort, merge sort ect. have been implemented by the <productname>Algorithm Elf</productname>. You can use one of them to learn the usage of Algorithm Elf.
+<variablelist>
+<varlistentry>
+<term>Animation Process of Algorithm</term>
+<listitem><para>
+<orderedlist>
+<listitem><para>
+Click <menuchoice><guimenu>File</guimenu><guisubmenu>Open Examples</guisubmenu><guimenuitem>hanoi</guimenuitem></menuchoice>.
+</para></listitem>
+<listitem><para>
+Click toolbar button<guibutton>Play</guibutton>, the player window shows.
+</para></listitem>
+<listitem><para>
+In the player window, click button<guibutton>Start</guibutton>, the algorithm Hanoi is ready for running.
+</para></listitem>
+<listitem><para>
+Click button<guibutton>Run</guibutton>, running the algorithm.
+</para></listitem>
+<listitem><para>
+The graphic data view will show the process of implementation.
+</para></listitem>
+</orderedlist>
+<tip><simpara>
+You can set the interval of each action by typing the micro-seconds in the Control Button <guibutton>Delay</guibutton>.
+</simpara></tip>
+</para></listitem>
+</varlistentry>
+
+<varlistentry>
+<term>Step the algorithm</term>
+<listitem><para>
+When the algorithm is ready, not clicking button Run, but <guibutton>Step</guibutton>, it will enter the Step Mode.
+<itemizedlist>
+<listitem><para>
+Click button <guibutton>Step</guibutton> once, step one line. The graphic data view will show the data in the current context.
+</para></listitem>
+<listitem><para>
+In the Step Mode, click button<guibutton>Run</guibutton>, it will enter the Animation Mode.
+</para></listitem>
+<listitem><para>
+In the Animation Mode, click button <guibutton>Pause</guibutton>, it will switch the Step Mode.
+</para></listitem>
+</itemizedlist>
+</para></listitem>
+</varlistentry>
+
+<varlistentry>
+<term>Change the arguments of algorithm</term>
+<listitem><para>
+You can set the alogrithm arguments by Datapool in <productname>Algorithm Elf</productname>. For examples, we want to use 5 plates to show the haoni algorithm,
+<orderedlist>
+<listitem><para>
+Click the label<guibutton>Parameters</guibutton> in the right screen, it will list all the arguments used by the hanoi: n, x, y, z
+</para></listitem>
+<listitem><para>
+Select the parameter <guibutton>n</guibutton>, click the value <guibutton>3</guibutton>, then type new value: 5
+</para></listitem>
+<listitem><para>
+Select the parameter<guibutton>x</guibutton>, in the property list, set the <guibutton>Size</guibutton> to 5
+</para></listitem>
+<listitem><para>
+So the parameter y and z does.
+</para></listitem>
+<listitem><para>
+Click button <guibutton>Apply</guibutton> in the bottom.
+</para></listitem>
+<listitem><para>
+Click button <guibutton>Start</guibutton>, play the algorithm again.
+</para></listitem>
+</orderedlist>
+</para></listitem>
+</varlistentry>
+</variablelist>
+</para>
+</chapter>
+
+<chapter>
+<title>Writing your algorithm</title>
+<para>
+You can write your algorithm in the <productname>Algorithm Elf</productname> by Pascal Language. 
+<note><simpara>Not all the standard pascal elements can be used in your algorithm
+</simpara></note>
+<variablelist>
+<varlistentry>
+<term>New an algorithm</term>
+<listitem><para>
+<orderedlist>
+<listitem><para>
+Run <productname>Algorithm Elf</productname> at first.
+</para></listitem>
+<listitem><para>
+In the main window, click button <guibutton>New</guibutton>.
+</para></listitem>
+<listitem><para>
+Type the following text in the edit control:
+<programlisting>
+<![CDATA[
+program locate_sequence_list;
+type
+  sqlist: array [ 1..3 ] of integer;
+var
+  va: sqlist;
+  k: integer;
+  index: integer;
+
+  function loc_sqlist(var va: sqlist; x : integer) : integer;
+    var
+      i : integer;
+    begin
+      i := 1;
+      while i <= 3 and va[i] <> x do
+        i := i + 1;
+      if i > 3 then
+        result := 0
+      else
+        result := i
+    end;
+
+begin
+  va[1] := 5;
+  va[2] := 8;
+  va[3] := 9;  
+  k := 8;
+  index := loc_sqlist(va, k);
+end.
+]]>
+</programlisting>
+</para></listitem>
+<listitem><para>
+Click button <guibutton>Save</guibutton>, save the algorithm.
+</para></listitem>
+</orderedlist>
+</para></listitem>
+</varlistentry>
+
+<varlistentry>
+<term>Compile Algorithm</term>
+<listitem><para>
+Click button <guibutton>Compile</guibutton> to build the algorithm. If something is wrong, the error message will be shown in the right area. Fix your algorithm until it can be built successfully.
+</para></listitem>
+</varlistentry>
+
+<varlistentry>
+<term>Play Algorithm</term>
+<listitem><para>
+After compiling pass, you can play the algorithm. What you need to do is to click the button <guibutton>Play</guibutton>.
+</para></listitem>
+</varlistentry>
+</variablelist>
+About the pascal language supported by Algorithm Elf, see also the section <link linkend="pascal-language">Algorithm Language</link>.
+</para>
+</chapter>
+
+<chapter>
+<title>Using Datapool</title>
+<para>
+If you want to config the algorithm arguments when you play the algorithm, you need use Datapool.
+</para>
+<para>
+When you delcare one variable in the algorithm, a prefix '@' of the var name leads to initialize the variable value to the value from the same name item in the Datapool.
+<orderedlist>
+<listitem><para>
+Open the algorithm we wrote just now.
+</para></listitem>
+<listitem><para>
+Modify the algorithm as the following:
+<programlisting>
+<![CDATA[
+program locate_sequence_list;
+type
+  sqlist: array of integer;
+var
+  @va: sqlist;
+  @k: integer;
+  index: integer;
+
+  function loc_sqlist(var va: sqlist; x : integer) : integer;
+    var
+      i : integer;
+    begin
+      i := Low(va);
+      while i <= High(va) and va[i] <> x do
+        i := i + 1;
+      if i > High(va) then
+        result := 0
+      else
+        result := i
+    end;
+
+begin
+  index := loc_sqlist(va, k);
+end.
+]]>
+</programlisting>
+</para></listitem>
+<listitem><para>
+Save the algorithm.
+</para></listitem>
+<listitem><para>
+Compile the algorithm.
+</para></listitem>
+<listitem><para>
+Click button <guibutton>Play</guibutton>, enter the player window.
+</para></listitem>
+<listitem><para>
+In the player window, click toolbar button <guibutton>Parameters</guibutton>, enter the parameter dialog. It will show two parameters: va, k
+</para></listitem>
+<listitem><para>
+Select the parameter <guibutton>va</guibutton>
+</para></listitem>
+<listitem><para>
+Set the property <guibutton>Type</guibutton> to Array
+</para></listitem>
+<listitem><para>
+Set the property <guibutton>Size</guibutton> to 5
+</para></listitem>
+<listitem><para>
+Click the button <guibutton>Random Data</guibutton>, it will generate the random data to initalize this array.
+</para></listitem>
+<listitem><para>
+Select the parameter <guibutton>k</guibutton>
+</para></listitem>
+<listitem><para>
+Click the graphic node, type the new value: 15
+</para></listitem>
+<listitem><para>
+Click button <guibutton>Apply</guibutton>.
+</para></listitem>
+<listitem><para>
+Now you can play the algorithm using the new parameters.
+</para></listitem>
+</orderedlist>
+</para>
+</chapter>
+
+<chapter>
+<title>Breakpoint and Watchpoint</title>
+<para>
+Sometimes you need set breakpoints or watchpoints to find the data error in the algorithm.
+</para>
+<para>
+Watchpoint means if the expression is changed, the execution will stop.
+</para>
+<para>
+Only when running the algorithm, you cat set the breakpoints. The following actions happen in the player window.
+<variablelist>
+<varlistentry>
+<term>Add breakpoints</term>
+<listitem><para>
+Click one of the line in the source code window, type <keycap>b</keycap>, or click the left-most line, it will inisert a breakpoint
+</para>
+<para>
+Click toolbar button <guibutton>Breakpoint</guibutton> to show the breakpoint list
+</para></listitem>
+</varlistentry>
+<varlistentry>
+<term>Add Watchpoint</term>
+<listitem><para>
+In the source code window, select any of expression, then type <keycap>w</keycap> or in the breakpoint view, type the expresstion in the botton of breakpint view, and click <guimenuitem>Watch</guimenuitem>
+</para></listitem>
+</varlistentry>
+<varlistentry>
+<term>Remove breakpoint or watchpoint</term>
+<listitem><para>
+Click toolbar button <guibutton>Breakpoint</guibutton>, it will show all the breakpoints and watchpoints.
+</para>
+<para>
+Click the line to select the breakpoint or watchpoint, it will be marked as '*' in the beginning of the line.
+</para>
+<para>
+Clic button <keycap>Remove</keycap>, remove the selected item.
+</para></listitem>
+</varlistentry>
+</variablelist>
+</para>
+
+</chapter>
+
+<appendix id="pascal-language"><title>Algorithm Language</title>
+<para>
+Algorithm Lanuge is subset of standard pascal language. 'with' statement, Subrange type are not supportted now. And onle a few of sys library can be availabled.
+</para>
+<sect1><title>Algorithm File Structure</title>
+<para>
+<programlisting>
+program NAME;
+
+const
+
+  CONSTANT DEFINITION;         { optional }
+
+type
+
+  TYPE DEFINITION;             { optional }
+
+var
+
+  DECLARATION;                 { optional }
+
+  FUNCTIONS OR PROCEDURES;     { this section must be located here }
+
+begin             
+
+  MAIN PROCEDURE
+
+end.
+  
+</programlisting>
+</para>
+</sect1>
+
+<sect1><title>Data Type</title>
+<para>
+Simple Data Type
+<variablelist>
+<varlistentry>
+<term>Integer</term>
+<term>Real</term>
+<term>Char</term>
+<term>Boolean</term>
+<term>String</term>
+<listitem><para>
+For examples,
+<programlisting>
+var
+  r: Real;
+  i: Integer;
+  c: Char;
+  b: Boolean;
+</programlisting>
+</para></listitem>
+</varlistentry>
+</variablelist>
+Complex Data Type
+<variablelist>
+<varlistentry>
+<term>Set</term>
+<term>Enum</term>
+<term>Record</term>
+<term>Array</term>
+<listitem><para>
+For examples,
+<programlisting>
+var
+  set1: set of Integer;
+  arr1: array of Integer;       { Dynamic array }
+  arr2: array [0..10] of String;
+  r1: record of
+       name: String;
+       age: integer;
+     end;
+  e: (apple, pear, banana, orange, lemon);	
+</programlisting>
+</para></listitem>
+</varlistentry>
+</variablelist>
+User defined data type and pointer
+<programlisting>
+type
+  x = Integer;
+  y = x;
+  ...
+
+type 
+  a = Array [1..10] of Integer;
+  b = record
+        x: Integer;
+        y: Char
+      end;
+
+type 
+  a = ^b;
+  b = record
+        x: Integer;
+        y: Char;
+        z: a
+      end;
+var
+  pointertob: a;
+  pInt : ^Integer;
+
+new(pointertob);
+
+pointertob^.x := 10;
+pointertob^.y := 'A';
+pointertob^.z := nil;
+</programlisting>
+</para>
+</sect1>
+
+<sect1><title>Control Statement and Expression</title>
+<formalpara><title>Control Statement</title>
+<para>if, while, repeat, case, for
+<programlisting>
+<![CDATA[
+    while a<>b do 
+      writeln('Waiting');
+ 
+    if a > b then
+      writeln('Condition met')
+    else 
+      writeln('Condition not met');
+ 
+    for i := 1 to 10 do
+      writeln('Iteration: ', i:1);
+ 
+    repeat
+      a := a + 1
+    until a = 10;
+ 
+    case i of
+      0: write('zero');
+      1: write('one');
+      2: write('two');
+    end;
+]]>
+</programlisting>
+</para>
+</formalpara>
+<formalpara><title>Expression</title>
+<para>
+<programlisting>
+<![CDATA[
+      Number Expression: +, -, *, / 
+
+         1 + a, 2 * 4, 3.5 / 6
+
+      Boolean Expression: and, or, not, <, >, <=, >=, <>
+      
+         a and b 
+         a = b
+      
+      String Expression: +
+      
+         'abc' + 'efg'
+
+      Set Operator: in 
+         
+          a in [1,2,3]  
+
+      Pointer Operator: ^ , @
+          
+          p^ := s;
+          p  := @i;
+          p  := addr(x);
+
+      Visit record: .
+
+          s.name := 'jondy';
+
+      Assignment: :=
+
+          s := 2;
+]]>
+</programlisting>
+</para>
+</formalpara>
+</sect1>
+<sect1><title>Function and Procedure</title>
+<para>For examples,
+<programlisting>
+  function next(k: integer): integer;
+  begin
+    result := k + 1
+  end;
+
+  procedure print(var j: integer); 
+  begin
+    writeln('The total is: ', j);
+    j := next(j)
+  end;
+</programlisting>
+<note><simpara>
+In the function, the return variable is keyword 'result', not function name.
+</simpara></note>
+<note><simpara>
+You can not define procedure or function in the function or procdeure body.
+</simpara></note>
+</para>
+</sect1>
+
+<sect1><title>Extension: Datapool</title>
+<para>Datapool is one of extension for the standard pascal. The code is simple: if one variable is start with '@', its intial value will get from the value of same name in the datapool.
+<programlisting>
+var
+    @x: Integer;
+begin
+    writeln('Get the value from datapool: ', x);
+end.
+</programlisting>
+</para>
+</sect1>
+<sect1><title>Pascal Library</title>
+<para>Here list all the functions can be used in your algorithms.</para>
+<variablelist>
+<varlistentry>
+<term>abs</term>
+<listitem>
+<para><programlisting>
+function Abs(X);
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>addr</term>
+<listitem>
+<para><programlisting>
+function Addr(X): Pointer;
+</programlisting></para>
+</listitem></varlistentry><varlistentry>
+<term>chr</term>
+<listitem>
+<para><programlisting>
+function Chr(X: Byte): Char;</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>copy</term>
+<listitem>
+<para><programlisting>
+function Copy(S; Index, Count: Integer): string;
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>cos</term>
+<listitem>
+<para><programlisting>
+function Cos(X: Extended): Extended;
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>delete</term>
+<listitem>
+<para><programlisting>
+procedure Delete(var S: string; Index, Count:Integer);
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>dispose</term>
+<listitem>
+<para><programlisting>
+procedure Dispose(var P: Pointer);
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>exp</term>
+<listitem>
+<para><programlisting>
+function Exp(X: Real): Real;</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>frac</term>
+<listitem>
+<para><programlisting>
+function Frac(X: Extended): Extended;
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>high</term>
+<listitem>
+<para><programlisting>
+function High(X);
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>insert</term>
+<listitem>
+<para><programlisting>
+procedure Insert(Source: string; var S: string; Index: Integer);
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>int</term>
+<listitem>
+<para><programlisting>
+function Int_(X: Extended): Extended;
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>length</term>
+<listitem>
+<para><programlisting>
+function Length(S): Integer;
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>ln</term>
+<listitem>
+<para><programlisting>
+function Ln(X: Real): Real;
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>low</term>
+<listitem>
+<para><programlisting>
+function Low(X);
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>move</term>
+<listitem>
+<para><programlisting>
+procedure Move(const Source; var Dest; Count: Integer);
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>new</term>
+<listitem>
+<para><programlisting>
+procedure New(var P: Pointer);
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>odd</term>
+<listitem>
+<para><programlisting>
+function Odd(X: Longint): Boolean;
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>ord</term>
+<listitem>
+<para><programlisting>
+function Ord(X);
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>ptr</term>
+<listitem>
+<para><programlisting>
+function Ptr(Address: Integer): Pointer;
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>pos</term>
+<listitem>
+<para><programlisting>
+function Pos(Substr: string; S: string): Integer;
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>round</term>
+<listitem>
+<para><programlisting>
+function Round(X: Extended): Int64;
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>setlength</term>
+<listitem>
+<para><programlisting>
+procedure SetLength(var S; NewLength: Integer);
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>sin</term>
+<listitem>
+<para><programlisting>
+function Sin(X: Extended): Extended;
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>sqr</term>
+<listitem>
+<para><programlisting>
+function Sqr(X: Extended): Extended;
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>sqrt</term>
+<listitem>
+<para><programlisting>
+function Sqrt(X: Extended): Extended;
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>trunc</term>
+<listitem>
+<para><programlisting>
+function Trunc(X: Extended): Int64;
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>write</term>
+<listitem>
+<para><programlisting>
+procedure Write([ var F: Text; ] P1 [, P2, ...,Pn ] );
+</programlisting></para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>writeln</term>
+<listitem>
+<para><programlisting>
+procedure WriteLn([ var F: Text; ] P1 [, P2, ...,Pn ] );
+</programlisting></para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect1>  
+</appendix>
+
+</book>

@@ -1,0 +1,59 @@
+program MergeSort;
+
+var
+  @meglist: Queue;
+  buflist: Array of Integer;
+  first, last: IndexPointer;
+  
+procedure mergesort(var r, r1: Queue; s, t: Integer);
+var
+   r2: Queue;
+   m: Integer;
+BEGIN
+    SetLength(r2, t + 1);
+    IF s=t
+        THEN r1[s] := r[s]
+    ELSE BEGIN
+        m := Trunc( (s + t) / 2 );
+        mergesort(r, r2, s, m);
+        mergesort(r, r2, m + 1, t );
+        merge(r2, s, m, t, r1);
+    END;
+    Dispose(r2);
+END; {mergesort}
+
+procedure merge(rs: Queue; s, m, n: Integer; var rn: Queue);
+var
+  i, j, k: IndexPointer;
+  ki: integer;
+BEGIN
+    i := @rs; j := @rs; k := @rs;
+    i := s; j := m + 1; k := s - 1;
+    WHILE ( i <= m ) AND ( j <= n ) DO
+    BEGIN
+        k := k + 1;
+        IF rs[i] <= rs[j] THEN
+        BEGIN
+            rn[k] := rs[i];
+            i := i + 1;
+	END
+        ELSE
+	BEGIN
+            rn[k] := rs[j];
+            j := j + 1;
+        END; {if}
+    END; {while}
+    IF i <= m THEN
+        FOR ki := k + 1 to n do
+          rn[ki] := rs[i + ki - k - 1];
+    IF j <= n THEN
+        FOR ki := k + 1 to n do
+          rn[ki] := rs[j + ki - k - 1];
+END; 
+
+begin
+  first := @meglist; last := @meglist;
+  first := Low(meglist); last := High(meglist);
+  SetLength(buflist, last - first + 1);
+  mergesort(meglist, buflist^, first, last);
+end. {Mergesort}

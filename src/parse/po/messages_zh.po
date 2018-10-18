@@ -1,0 +1,102 @@
+
+# Copyright (C) 2010 Dashingsoft Corp.. All rights reserved.
+msgid ""
+msgstr ""
+"Project-Id-Version: parser 1.0.1\n"
+"Report-Msgid-Bugs-To: jondy.zhao@gmail.com\n"
+"POT-Creation-Date: 2010-09-07 07:48+0800\n"
+"PO-Revision-Date: 2010-10-21 23:17+0800\n"
+"Last-Translator: Jondy <jondy.zhao@gmail.com>\n"
+"Language-Team:  Simplified Chinese<jondy.zhao@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: algorithm-elf.y:639
+#, c-format
+msgid "Error:%d: %s\n"
+msgstr ""
+
+#: algorithm-elf.y:672
+#, c-format
+msgid "Option -%c requires an argument.\n"
+msgstr ""
+
+#: algorithm-elf.y:675
+#, c-format
+msgid "Warning: Unknown option `-%c'.\n"
+msgstr ""
+
+#: algorithm-elf.y:679
+#, c-format
+msgid "Warning: Unknown option character `\\x%x'.\n"
+msgstr ""
+
+#: algorithm-elf.y:686
+#, c-format
+msgid "Warning: ?? getopt returned character code 0%o ??\n"
+msgstr ""
+
+#: algorithm-elf.y:729
+#, c-format
+msgid "Error: no specify filename found\n"
+msgstr ""
+
+#: algorithm-elf.y:734
+#, c-format
+msgid "Error: can't open file '%s'\n"
+msgstr ""
+
+#: algorithm-elf.y:742
+#, c-format
+msgid "Error: the extention of file name should be '.pal'\n"
+msgstr ""
+
+#: algorithm-elf.y:749
+#, c-format
+msgid "Error: can't open output file '%s'\n"
+msgstr ""
+
+#: algorithm-elf.y:755
+#, c-format
+msgid "Error: can't get file id of '%s'\n"
+msgstr ""
+
+#: algorithm-elf.y:761
+#, c-format
+msgid "Error: duplicate the stdout\n"
+msgstr ""
+
+#: algorithm-elf.y:767
+#, c-format
+msgid "Error: redirect the stdout\n"
+msgstr ""
+
+#: algorithm-elf.y:771
+#, c-format
+msgid "Building '%s' ...\n"
+msgstr ""
+
+#: algorithm-elf.y:780
+#, c-format
+msgid "Building over! The target file '%s' has been generated successfully.\n"
+msgstr ""
+
+#: algorithm-elf.y:786
+#, c-format
+msgid ""
+"Building failed! There are %d errors found, you can click the error message "
+"above to locate the error, fix it and rebuild the source file.\n"
+msgstr ""
+
+#: algorithm-elf.y:793
+#, c-format
+msgid ""
+"Building abort! Memory is exhausted when parsing the source file. Please "
+"quit other applications and try it again, if the same error is occured, send "
+"the email to jondy.zhao@gmail.com to get some advice\n"
+msgstr ""
+
+#: parse.c:19
+msgid "Error when create parameters file"
+msgstr ""

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book SYSTEM "/usr/share/sgml/docbook/xml-dtd-4.1.2/docbookx.dtd">
+<book>
+<title>算法精灵用户手册</title>
+<bookinfo> 
+   <author>
+      <firstname>俊德</firstname>
+      <surname>赵</surname>
+   </author>
+   <revhistory>
+        <revision>
+            <revnumber>0.1</revnumber>
+            <date>2010-09-18</date>
+            <authorinitials>赵俊德 - jondy.zhao@gmail.com</authorinitials>
+            <revremark>创建文档。</revremark>
+         </revision>
+      </revhistory>
+</bookinfo>
+
+<part>
+<title>算法精灵</title>
+<partintro>
+<para>
+算法精灵的主界面，实现编辑算法、编译算法、演示算法和数据池维护的集成环境。
+</para>
+</partintro>
+
+<chapter>
+<title>组成</title>
+<para>
+算法精灵主界面由菜单栏、工具栏、编辑区、编译区和状态栏组成。<mediaobject><imageobject><imagedata fileref="figures/img001.jpg" format="jpg"></imagedata></imageobject></mediaobject>
+<variablelist>
+<varlistentry>
+<term><synopsis>菜单栏</synopsis></term>
+<listitem><para>
+算法精灵全部可用的功能都可以从菜单栏找到对应的入口。
+</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><synopsis>工具栏</synopsis></term>
+<listitem><para>
+常用的功能都放在工具栏上，主要包括算法编辑、算法编译和演示。
+</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><synopsis>编辑区</synopsis></term>
+<listitem><para>
+左边的区域，文本编辑区，用于输入算法。
+</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><synopsis>编译区</synopsis></term>
+<listitem><para>
+右边的区域，用于显示编译过程显示的信息。
+</para></listitem>
+</varlistentry>
+<varlistentry>
+<term><synopsis>状态栏</synopsis></term>
+<listitem><para>
+在窗口的最下方，用来显示算法文件状态信息或者其他一些说明信息。
+</para></listitem>
+</varlistentry>
+</variablelist>
+</para>
+
+<sect1>
+<title>菜单</title>
+<para>
+</para>
+</sect1>
+
+</chapter>
+
+<chapter>
+<title>功能</title>
+<para>
+</para>
+</chapter>
+
+</part>
+
+<part>
+<title>演示器</title>
+
+<chapter>
+<title></title>
+<para>
+</para>
+</chapter>
+</part>
+
+<part>
+<title>数据池</title>
+
+<chapter>
+<title></title>
+<para>
+</para>
+</chapter>
+</part>
+
+<part>
+<title>算法语言</title>
+
+<chapter>
+<title></title>
+<para>
+</para>
+</chapter>
+</part>
+
+</book>

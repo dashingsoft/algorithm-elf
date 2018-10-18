@@ -1,0 +1,70 @@
+procedure hanoi(n:integer, x,y,z:char);
+{将塔座x上编号从1至n，直径依小至大的n个圆盘移到塔座z上，y可用作辅助塔座}
+begin
+    if n=1
+        then move(x,1,z) {将编号为1的圆盘从x移到z}
+    else begin
+        {将x上编号从1至n-1的圆盘移动到y上，z为辅助塔座}
+        hanoi(n-1,x,z,y); {将编号n-1的圆盘从x移到z}
+        move(x,n,z);
+        {将y上编号从1至n-1的圆盘移动到z上，x为辅助塔座}
+        hanoi(n-1,y,x,z);
+    end
+end; {hanoi}
+
+procedure move(x : char, n:integer, y:char);
+begin
+   n from x -> y   
+end;
+
+{<xml>
+    <variable xincrement='10' width='40' anonymous='True' orientation='vertical' anchor='s'>
+        <name>A</name>
+	<type>Array</type>
+	<value>{'0':'1','1':'2','2':'3','3':'4'}</value>
+    </variable>
+
+    <variable anonymous='True' orientation='vertical' anchor='s'>
+        <name>B</name>
+	<type>Array</type>
+	<value>{'0':None,'1':None,'2':None,'3':None}</value>
+    </variable>
+
+    <variable anonymous='True' orientation='vertical' anchor='s'>
+        <name>C</name>
+	<type>Array</type>
+	<value>{'0':None,'1':None,'2':None,'3':None}</value>
+    </variable>
+
+    <variable visible='True'>
+        <name>V</name>
+	<type>Array</type>
+	<value>{'0':['A'], '1':['B'], '2':['C']}</value>
+    </variable>
+
+    <variable watch='A'>
+        <name>n</name>
+        <type>Integer</type>
+        <value>4</value>
+    </variable>
+
+    <variable>
+        <name>x</name>
+        <type>Pointer</type>
+        <value>A</value>
+    </variable>
+
+    <variable>
+        <name>y</name>
+        <type>Pointer</type>
+        <value>B</value>
+    </variable>
+
+    <variable>
+        <name>z</name>
+        <type>Pointer</type>
+        <value>C</value>
+    </variable>
+
+</xml>}
+

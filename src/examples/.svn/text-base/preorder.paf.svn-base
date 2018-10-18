@@ -1,0 +1,24 @@
+program Preorder;
+var
+  @bintree: Tree;
+  root: Pointer;
+procedure preorder(bt:Pointer);
+BEGIN
+    IF bt <> NIL THEN
+    BEGIN
+      visit(bt); 
+      preorder(bt^.lchild);
+      preorder(bt^.rchild);
+    END 
+END; {end of preorder}
+
+procedure visit(bt:Pointer);
+begin
+  bt^.value.active();
+end;
+
+{ main entry }
+begin
+  root := @bintree;
+  preorder(root);
+end.

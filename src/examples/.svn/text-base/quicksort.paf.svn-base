@@ -1,0 +1,47 @@
+program Quicksort;
+
+var 
+  @qklist: Queue;
+  first: IndexPointer;
+  last: IndexPointer;
+  
+procedure qksort(var r: Queue; s, t: IndexPointer);
+var
+  k: IndexPointer;
+begin
+  k := @r;
+  if s < t then
+  begin
+    qkpass(r, s, t, k);
+    qksort(r, s, k - 1);
+    qksort(r, k + 1, t);
+  end;
+end;
+
+procedure qkpass(var r: Queue; s, t: IndexPointer; var i: IndexPointer);
+var
+  j: Integer;
+  x: Integer;
+  rp: Integer;
+begin
+  i := s; 
+  j := t; 
+  rp := r[s]; 
+  x := r[s];
+  while i < j do
+  begin
+    while i < j and r[j] >= x do
+      j := j - 1;
+    r[i] := r[j];
+    while i < j and r[i] <= x do
+      i := i + 1;
+    r[j] := r[i];
+  end;
+  r[i] := rp;
+end;
+
+begin
+  first := @qklist; last := @qklist;
+  first := Low(qklist); last := High(qklist);
+  qksort(qklist, first, last);
+end.

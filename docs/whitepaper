@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article SYSTEM "/usr/share/sgml/docbook/xml-dtd-4.1.2/docbookx.dtd">
+<article>
+
+<artheader>
+   <title>算法精灵白皮书</title>
+   <author>
+      <firstname>俊德</firstname>
+      <surname>赵</surname>
+   </author>
+   <revhistory>
+        <revision>
+            <revnumber>0.1</revnumber>
+            <date>2010-06-16</date>
+            <authorinitials>Jondy Zhao - jondy.zhao@gmail.com</authorinitials>
+            <revremarks>
+             定义算法精灵的功能，使用用户语言。
+            </revremarks>
+         </revision>
+   </revhistory>
+</artheader>
+
+<sect1>
+<title>概述</title>
+
+<para>
+<![CDATA[ 
+
+* 实体
+
+** 算法实体
+
+扩展名为 .paf 的文件。
+
+*** PAF
+
+PAF 是 Pascal Algorithm ELF 的首字母，表示以 Pascal 语法为基
+础进行扩充的算法语言。
+
+其详细的定义可以参看 algorithm-elf.y 文件，这是 Bison 格式的
+定义，只有能够通过其编译的文件才是合法的算法实体文件。
+
+*** 算法数据
+
+是变量实体的实例，用于描述算法中使用的数据，以及显示选项的设置。
+
+** 内存实体
+
+包括调用堆栈，内存数据等。
+
+全局堆的初始化和全局变量的初始化；
+函数调用产生的局部变量的内存分配和释放，以及返回地址；
+使用动态方式申请和释放内存。
+
+** 变量实体
+
+包括全局变量和局部变量。
+
+它实际上是内存实体的一种映射，把内存地址映射到一个名称之上，
+把内存数据映射到一种数据类型。
+
+** 断点实体
+
+一种是固定断点，可以永久保存在配置文件中；
+
+一种是挥发性断点，譬如根据变量 id 的值设定的断点，只能在执行
+的时候设置，执行完成之后就无效。
+
+断点可以使用局部数据和全局数据组合成为任何表达式，另外还可以
+使用一些特殊数据：
+
+命中次数，本次断点在这次调试过程中满足的次数；
+
+断点的设置方式：
+
+1. 在源代码上点击；
+
+2. 在可见视图上点击某一个数据结点，设置该结点读、写或者条件断点；
+
+** 代码视图
+
+是将 PAL 的映射成为一种可见的对象。
+
+** 数据视图
+
+是将内存实体映射成为一种可见的对象，包括调用堆栈，局部变量，
+全局变量等。
+
+** 直观视图
+
+是对变量实体的可见映射。
+
+** 输出视图
+
+用来显示算法向控制台的输出。
+
+** 日志视图
+
+用来显示被执行的代码序列。
+
+** 断点和观察视图
+
+显示断点和观察表达式；
+
+** 算法精灵实体
+
+由上述的实体和视图组成的一个统一体，可以动态演示算法执行过程。
+
+** 数据池
+
+*** 功能点
+
+譬如调试一个链表数据结构的时候，该链表能够以图形的形式显示在
+界面上，我们还能够设置这样的断点，每一次对每一个结构指定成员
+进行读、写的时候停下来，显示当前执行的源代码、堆栈、变量等信
+息，这样将极大的方便调试。
+
+编辑器功能点，
+    语法高亮显示，
+    自动补齐，
+    自动换行对齐，
+    显示括号、end 的匹配，
+    自动输入匹配的括号、end
+
+* 内部原理
+
+配置文件统一存放到： algorithm-elf.pycfg 使用 python 的
+repr(dict) 格式；
+
+主要包括：
+
+    语言配置（可选），没有选项则取环境变量，按照 gettext 的原则
+
+    算法演示参数，可见变量匹配正则表达式，不可见变量匹配正则表达式等
+
+多语言支持，包括解析器，统一都使用域名 algorithm-elf，并且在
+安装的时候拷贝mo文件到默认的系统路径下面，在Windows下面拷贝到
+哪里呢？
+
+同时，算法演示器（dsplayer.py)，数据池(dsdatapool.py)，主程序
+(algorithm-elf.py),解析器 parsepaf.exe，都支持语言设置参数；
+
+程序组名称：
+
+算法精灵 1.0 (Algorithm Elf Vx.y)
+算法演示器（player)
+数据池（Data Pool)
+帮助（Help）
+
+数据池对应的数据文件: datapool.data
+
+* 1.2.2 新功能说明
+
+** None 的完善和处理
+
+   aftype 中的赋值和运算
+
+   datapool 中的使用特殊的背景色来显示 None
+
+   datapool.build 的调整
+
+** 全局堆的实现
+
+   dsgraph 支持全局堆
+   dscore 支持全局堆
+   aftype 支持全局堆
+   pascal 中 New, Dispose, SetLength 函数的修改
+
+** datapool 的 value 的简化和重构
+  
+   
+** 增加一些新算法
+
+   堆排序(heapsort)
+   
+
+** aftype 区别对待算法和内部引用
+
+   对于内部引用，可以允许访问值为 None，而算法则抛出 AlgorithmError
+
+]]>
+</para>
+
+</sect1>
+
+</article>

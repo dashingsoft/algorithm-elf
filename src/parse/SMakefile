@@ -1,0 +1,32 @@
+#
+# 文件说明（赵俊德 2010/06/17)：
+# 
+# 简单的直接编译的 Makefile 文件，已经被 configure.ac 和 Makefile.am 取代。
+#
+# 注意这里面的一条命令：
+#
+#     $gcc -g -mno-cygwin -I. -o parse.exe -Wl,-e,_flmain \
+#          algorithm-elf.tab.c lex.yy.c parse.c
+#
+#     其中 -Wl,e,_flmain 是用来直接指定主程序的入口地址的，但
+#     是这样的方式 argc 和 argv 都没有被设置。
+#
+GCC=gcc-3
+LGCC=/toolchains/i686-pc-linux-gnu/sys-root/usr/bin/i686-pc-linux-gnu-gcc.exe
+
+all: algorithm-elf.tab.c algorithm-elf.tab.h lex.yy.c parse.h parse.c
+	$(GCC) -g -mno-cygwin -I. -o algorithm-elf.exe algorithm-elf.tab.c lex.yy.c parse.c
+	$(LGCC) -g -I. -o algorithm-elf.bin algorithm-elf.tab.c lex.yy.c parse.c
+	cp algorithm-elf.exe ../palparse.exe
+	cp algorithm-elf.bin ../palparse
+	#gcc -g -mno-cygwin -I. -o parse.exe -Wl,-e,_flmain algorithm-elf.tab.c lex.yy.c parse.c
+	gcc -g -mno-cygwin -I. -o parse.exe -DFLEX algorithm-elf.tab.c lex.yy.c parse.c
+
+lex.yy.c: algorithm-elf.lex algorithm-elf.tab.h
+	flex algorithm-elf.lex
+
+algorithm-elf.tab.c algorithm-elf.tab.h: algorithm-elf.y
+	bison -d -v algorithm-elf.y
+
+clean:
+	rm algorithm-elf.exe algorithm-elf.tab.c algorithm-elf.tab.h lex.yy.c
