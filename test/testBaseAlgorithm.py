@@ -5,8 +5,8 @@ import sys
 import gettext
 
 sys.path.append("")
-sys.path.append("D:/Projects/dsAssistant/src")
-sys.path.append("D:/Projects/dsAssistant/src/algorithm")
+sys.path.append("D:/repo/algorithm-elf/src")
+sys.path.append("D:/repo/algorithm-elf/src/algorithm")
 
 import unittest
 from dsException import dsError
