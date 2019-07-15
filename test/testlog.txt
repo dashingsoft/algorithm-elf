@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/usr/lib/python2.7/unittest/__main__.py", line 12, in <module>
+    main(module=None)
+  File "/usr/lib/python2.7/unittest/main.py", line 94, in __init__
+    self.parseArgs(argv)
+  File "/usr/lib/python2.7/unittest/main.py", line 149, in parseArgs
+    self.createTests()
+  File "/usr/lib/python2.7/unittest/main.py", line 158, in createTests
+    self.module)
+  File "/usr/lib/python2.7/unittest/loader.py", line 130, in loadTestsFromNames
+    suites = [self.loadTestsFromName(name, module) for name in names]
+  File "/usr/lib/python2.7/unittest/loader.py", line 100, in loadTestsFromName
+    parent, obj = obj, getattr(obj, part)
+AttributeError: 'module' object has no attribute 'py'
