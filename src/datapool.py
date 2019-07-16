@@ -77,6 +77,7 @@ TYPE_LIST = {
     "Tree" : "{}"
     }
 
+
 class DataPoolFrame(Tix.Frame):
     """算法数据池维护窗口。
 
