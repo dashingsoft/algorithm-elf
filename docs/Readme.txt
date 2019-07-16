@@ -1,8 +1,6 @@
 Algorithm Elf 1.2.2
 ===================
 
-Copyright (c) 2009,2010 Dashingsoft Corp. All rights reserved.
-
 What is Algorithm Elf anyway?
 -----------------------------
 
@@ -14,51 +12,6 @@ Most of the classical algorithm is built-in . Each algorithm can be used as a ga
 
 Algorithm wizard also allows you to write your algorithms in Pascal Language, build and run the algorithm. Through the graphical Algorithm-based approach to demonstrate the implementation process, to discover problems in algorithm design and better improved algorithm. you can add breakpoints and watchpoints in the execution process even.
 
-License information
--------------------
-
-The use of this product is a registered product, free trial
-period of one month, if that product can give you help,
-please register using this product.
-
-Registered url: 
-https://secure.shareit.com/shareit/checkout.html?PRODUCT[300326756]=1
-
-How to register
----------------
-
-1. Get Registration Code.
-
-  * Open a web browser, type the following url:    
-    https://secure.shareit.com/shareit/checkout.html?PRODUCT[300326756]=1
-
-  * According to the information in the web page to get the
-    registration code.
-
-  Or you can startup Algorithm Elf, 
-
-  * Click menu item Help -> Register Product in the main
-    window, it will open the register dialog.
-
-  * Click button Buy Now in the register dialog, it will
-    open the web page to get the registration code.
-
-  The registration code will send you by email after you
-  have purchased. Please keep this email somewhere, it will
-  be the identify for future upgrades.
-
-2. Register product.
-
-  After got the registration code, startup Algorithm Elf,
-
-  * Click menuitem Help -> Register Product in the main window.
-
-  * Copy the Registration Code sent you by the email to the
-    text box.
-
-  * Click Register.
-
-  * OK, what you should do is to restart Algorithm Elf.
 
 Supported platforms 
 ------------------- 
@@ -77,7 +30,7 @@ Installation
 1. Windows Platforms
 
 Downlowad the distributed packate from 
-http://www.dashingsoft.com click products -> Algorithm Elf
+https://github.com/dashingsoft/algorithm-elf/releases
 
 You can get the latested version such as:
 
@@ -90,7 +43,7 @@ complete the installation.
 
 2. Linux Platforms
 Downlowad the distributed packate from 
-http://www.dashingsoft.com click products -> Algorithm Elf
+https://github.com/dashingsoft/algorithm-elf/releases
 
 You can get the latested version such as:
 algorithm-elf-1.2.2-1.i686-linux.rpm
@@ -204,8 +157,7 @@ Send an email to: jondy.zhao@gmail.com, thanks.
 Patches and contributions
 -------------------------
 
-Visit link http://www.dashingsoft.com，select products ->
-Algorithm Elf, can get all the latest product version
+Visit link https://github.com/dashingsoft/algorithm-elf/releases, can get all the latest product version
 information.
 
 
@@ -215,9 +167,8 @@ That's all, Thanks to the use
 This is the entire contents of this document, thanks to the
 use of feedback welcomed.
 
-Home: http://www.dashingsoft.com 
+Home: https://github.com/dashingsoft/algorithm-elf
 
 E-mail: jondy.zhao@gmail.com 
 
-2010-11-10 13:30 + China Standard Time 
-
+2019-07-16 10:17 + China Standard Time 

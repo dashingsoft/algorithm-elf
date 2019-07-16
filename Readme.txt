@@ -1,7 +1,6 @@
 算法精灵 1.2.2
 ==============
 
-版权所有 (c) 2009，2010 德新软件公司。保留全部权利。
 
 算法精灵是什么呢？
 -----------------
@@ -24,46 +23,6 @@
 来启动。在游戏过程中，你需要正确的按照算法目前的状态正确的设
 定图片的属性，或者填写正确的数据值，才可以继续游戏或者得到积
 分（游戏功能在当前版本尚未实现）。
-
-许可信息
---------
-
-本产品是注册使用产品，免费试用期为1个月，如果认为产品能够给
-你带来帮助，请注册使用本产品。
-
-产品的注册地址：
-https://secure.shareit.com/shareit/checkout.html?PRODUCT[300326756]=1
-
-也可以使用下面的中文注册地址：
-http://shareware.skycn.com/orderform.php?purtype=unreg&soft_id=26526
-
-注册步骤
---------
-
-1. 申请注册码。
-
-   注册码就是一串字符。你必须能够连接上因特网，然后打开任何一
-   个浏览器，输入上面的注册地址，按照页面的提示购买注册码。
-
-   或者启动主程序，点击菜单 帮助 -> 注册产品。
-
-   在弹出的注册对话框中点击按钮 现在购买，进入购买页面，按照
-   页面提示购买注册码。
-
-   注册码会通过邮件方式发给注册用户，请妥善保管此邮件，这是以
-   后的升级依据。
-
-2. 注册产品。
-
-   获得注册码之后，启动主程序，点击菜单 帮助-> 注册产品，打开
-   注册窗口。
-
-   a. 将邮件中包含注册码拷贝到注册窗口的编辑框中。
-
-   b. 点击按钮【注册】，完成产品注册。
-
-   注册成功之后重新启动应用程序使之生效。
-
 
 支持的平台
 ----------
@@ -111,7 +70,7 @@ algorithm-elf-X.Y.M.N.exe
 2.1 安装包
 
 如果你没有安装包，可以在
-http://www.dashingsoft.com 点击 产品 -> Algorithm Elf
+https://github.com/dashingsoft/algorithm-elf/releases
 
 选择 Linux 平台下的对应的安装包
 
@@ -237,7 +196,7 @@ $ ./algorithm-elf.bin
 ------------------
 
 访问链接
-http://www.dashingsoft.com 点击 产品-> Algorithm Elf，可
+https://github.com/dashingsoft/algorithm-elf，可
 以得到本产品的所有最新版本信息。
 
 
@@ -246,8 +205,8 @@ http://www.dashingsoft.com 点击 产品-> Algorithm Elf，可
 
 这是本文档的全部内容，感谢使用，欢迎反馈。
 
-主页：http://www.dashingsoft.com
+主页：https://github.com/dashingsoft/algorithm-elf
 
 电子邮件：jondy.zhao@gmail.com
 
-2010-11-10 13:40+中国标准时间
+2019-07-16 22:06+中国标准时间

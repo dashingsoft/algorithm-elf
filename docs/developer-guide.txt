@@ -3,9 +3,6 @@
 
 * 产品信息
 
-  内部编号：DSAD
-  AppId = DSAD
-
   产品名称: 数据结构算法助手
   AppName = Data Structure Algorithm Assistant
 
@@ -13,38 +10,15 @@
   AppNickName = Algorithm Elf
 
 
-  版本：1.0.0.1
-  AppVersion = 1.0.0.1
-
-  版权: 版权所有 (c) 2009，2010 德新软件公司。保留全部权利。
-  AppCopyright = Copyright (c) 2009,2010 Dashingsoft Corp. All rights reserved.
-
-  软件制造商：德新软件
-  AppPublisher = Dashingsoft Corp.
+  版本：1.2.2
+  AppVersion = 1.2.2
 
   其他信息：
   AppContact=jondy.zhao@gmail.com
-  AppPublisherURL=http://www.dashingsoft.com
+  AppPublisherURL=https://github.com/dashingsoft/algorithm-elf/releases
   AppReadmeFile=Readme.txt
-  AppSupportPhone=86-29-8833-0275
-  AppSupportURL=http://www.dashingsoft.com
-  
-  注册地址：
-      英文版本 shareit 提供的地址
-      http://www.shareit.com/product.html?productid=300326756
-      
-      中文版本 华军软件商场提供的地址
-      http://www.31buy.com/order/form_set_order_v2.aspx?cardID=16389
+  AppSupportURL=https://github.com/dashingsoft/algorithm-elf
 
-      天空软件的浏览地址：
-      http://shareware.skycn.com/soft/26526.htm
-
-      中国软件共享中心
-      http://www.softreg.com.cn/shareware.asp?id=43059
-
-      
-  AppUpdatesURL=http://www.dashingsoft.com
-  AppComments =
   产品简介：
 
       一个使用图形化的方式动态显示数据结构算法执行过程的模拟
@@ -92,10 +66,6 @@
           示算法执行过程的数据变化，用直观的方式显示出算法中
           的问题。
 
-
-  版权形式：
-      注册使用版。
-
   跟踪反馈：
 
       问题报告和增强功能，访问mantis中对应的项目，或者直接发
@@ -110,38 +80,12 @@
 本计划每一个月跟踪一次，在每一个月的第一个工作日发布本月的产
 品版本发布计划，同时总结上一个月的发布情况。
 
-使用文件 TrackVersion.xls 来跟踪产品版本计划。
-
-* License 管理。
-
-1. 生成 RSA 的公钥和密钥。
-   这个一般只生成一次，生成之后将密钥保存好即可。目前使用
-   public_a.key 和 private_a.key
-
-2. 生成密钥对应的 License Key。
-   这个要经常使用，每销售一份需要一个 License Key。
-
-3. 试用版 License 的生成。文件 license.tri
-
-以上两部分功能在文件 LicenseManager.py 中实现，具体可参考其
-中的文档说明。
-
 
 * 安装部署包制作
 
 ** Windows 平台
 
 下列文档用于构建 Windows 平台下的安装包：
-dsAssistant.iss， info setup 的安装脚本
-dsAssistant.mak， NMAKE 格式，用于编译各种源文件。
-build_win.bat，建立 NMAKE 环境，调用 dsAssistant.mak
-
-encrypt.bat，用于加密 startup.py 和 dsMain.py
-
-*** 安装包制作
-
-如果版本发生变化，打开 dsAssistant.mak，修改变量
-PRODUCTVERSION 为对应的值。
 
 直接双击 build_win.bat 即可生成安装包，存放在
 internal\dist\win 目录下面。
